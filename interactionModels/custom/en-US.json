@@ -1,0 +1,72 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "animal voice",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "Audioplayer",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "Alexa play {name} sound",
+            "Alexa play {name} voice",
+            "can you make {name} noise",
+            "make {name} noise",
+            "i want to know the voice of {name}",
+            "i want to know how {name} sounds",
+            "can you play {name} noise",
+            "{name} noise",
+            "play {name} noise",
+            "listen {name} sound",
+            "listen {name} voice",
+            "lion voice {name}",
+            " play {name}  voice",
+            " can you play {name} voice",
+            "{name} voice",
+            "{name} sound",
+            "play {name} sound"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "11"
+}
